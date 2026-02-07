@@ -1,0 +1,63 @@
+/*styles the entire page*/
+body{
+    margin: 0; /*removes default browser margin*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*sets font*/
+    line-height: 1.6;/*improves readability*/
+}
+
+/*Style all main layout sections */
+header, nav, main, footer{
+    padding: 1rem;/*adds space inside elements*/
+    text-align: center;/*centers text*/
+}
+
+/*Header styling*/
+header{
+    background-color: #333;
+    color: white;
+}
+/*removes bullets and spacing from list*/
+nav ul{
+    list-style: none;/*removes bullet points*/
+    padding: 0;/*removes default padding*/
+    margin: 0;/*removes default margin*/
+}
+/*removes space between nav items(mobile view)*/
+nav li{
+    margin: 0.5rem 0;/*vertical spacing*/
+}
+/*nav links*/
+nav a{
+    color: white;/*white text*/
+    text-decoration: none;/*removes underline*/
+}
+
+footer{
+    background-color: #333;
+    color: white;
+}
+
+/*medium screen styles*/
+@media (min-width: 600px){
+    nav ul{
+        display: flex; /*displays nav items in a row*/
+        justify-content: center; /*centers nav items */
+    }
+
+    nav li{
+        margin: 0 1rem; /*horizontal spacing*/
+    }
+
+}
+/*large screen styles*/
+@media (min-width: 900px){
+    max-width: 800px;/*limits content width*/
+    margin: auto;/*centers content*/
+}
+
+/*x-large screen styles*/
+@media (min-width: 1200px){
+    body{
+        font-size: 1.1rem;/*slightly larger text*/
+    }
+}
