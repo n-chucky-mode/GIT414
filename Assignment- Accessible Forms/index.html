@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale-1.0">
+<meta name="author" content="Gloria" />
+<title>Test Page</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>Test Page For GIT 414</header>
+
+<nav aria-label="Primary Navigation">
+    <ul>
+        <li><a href="#contact-form">Form</a></Form></li>
+        <li><a href="comments">Comments</a></Form></li>
+    </ul> 
+</nav>
+
+<main>
+    <h1 id="contact-form">Contact Form</h1>
+    <p><span aria-hidden="true">*</span>Indicates a required field.</p>
+    
+    <!--form begins-->
+     <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+      
+        <!-- Label for first name -->
+      <label for="first-name">First Name <span aria-hidden="true">*</span></label>
+      <input
+        id="first-name"
+        name="firstName"
+        type="text"
+        autocomplete="given-name"
+        required
+      />
+         <!-- Label for last name -->
+      <label for="last-name">Last Name <span aria-hidden="true">*</span></label>
+      <input
+        id="last-name"
+        name="LastName"
+        type="text"
+        autocomplete="family-name"
+        required
+      />
+         <!-- email-->
+      <label for="email">Email <span aria-hidden="true">*</span></label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        autocomplete="email"
+        required
+      />
+         <!-- phone number -->
+      <label for="phone">First Name></label>
+      <input
+        id="phone"
+        name="phone"
+        type="tel"
+        autocomplete="tel"
+        required
+      />
+      <!--preferred contact method-->
+      <fieldset>
+        <legend>Preferred Method Of Contact<span aria-hidden="true">*</span></legend>
+        <input
+        id="pref-email"
+        name="preferredContact"
+        type="radio"
+        value="email"
+        required
+        checked
+        />
+
+        <label for="pref-email">Email</label>
+        <input
+        id="pref-phone"
+        name="preferredContact"
+        type="radio"
+        value="phone"
+        />
+
+        <label for="pref-phone">Phone</label>
+
+    </fieldset>
+</main>
+
+<footer> 
+</footer>
+
+
+</body>
+</html>

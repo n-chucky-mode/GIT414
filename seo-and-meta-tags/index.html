@@ -1,0 +1,487 @@
+
+<!doctype html>
+<!--Add the language of the page -->
+<html lang="en"><!-- I added lang="en" so browsers/ screen readers know the page language -->
+
+<!--information to browsers and search engines -->
+<head>
+<!-- META -->
+	<!--character encoding-->
+	<meta charset="UTF-8">
+
+	<!--Tells a mobile device how to render -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- I added this so the page scales correctly on phones/tablets -->
+
+	<!--Tells who wrote the HTML -->
+	<meta name="author" content="Gloria"><!-- I added my name here -->
+
+	<!-- Accurate description about the content 140-160 characters to display on search engines -->
+	<meta name="description" content="Explore the Bee Gees discography from 1966 to 2017 with album covers, release years, and album types—studio, live, soundtrack, and compilations."><!-- I wrote a clear 140–160ish character description for SEO/search previews -->
+
+	<!-- Summarize the main topic, avoid "keyword stuffing" -->
+	<meta name="keywords" content="Bee Gees, discography, albums, disco, Barry Gibb, Robin Gibb, Maurice Gibb, soundtrack, compilation"><!-- I added a short keyword list that matches the topic without repeating/spamming -->
+
+	<!--Help web crawlers index and display your page -->
+	<meta name="robots" content="index, follow"><!-- I added robots so search engines know they can index this page and follow links -->
+
+<!-- OPEN GRAPH/SOCIAL MEDIA META TAGS -->
+	<!-- For Twitter -->
+	<meta name="twitter:card" content="summary_large_image"><!-- I added a Twitter card type so shared links show a large preview image -->
+	<meta name="twitter:title" content="Bee Gees Discography | Albums 1966-2017"><!-- I added a Twitter title so the share preview has a clean headline -->
+	<meta name="twitter:description" content="A visual discography of the Bee Gees with album covers, years, and album types from 1966-2017."><!-- I added a Twitter description for a readable social preview -->
+	<meta name="twitter:image" content="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/SATURDAY-NIGHT-FEVER.jpeg"><!-- I picked one representative album cover to use as the social preview image -->
+
+	<!-- Open Graph -->	
+	<meta property="og:title" content="Bee Gees Discography | Albums 1966-2017"><!-- I added the Open Graph title for Facebook/other platforms -->
+	<meta property="og:description" content="Explore the Bee Gees discography with album covers, release years, and album types from 1966-2017."><!-- I added the Open Graph description for social previews -->
+	<meta property="og:image" content="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/SATURDAY-NIGHT-FEVER.jpeg"><!-- I used the same strong cover image for Open Graph previews -->
+	<meta property="og:type" content="website"><!-- I set the OG type to website since this is a web page -->
+	<meta property="og:url" content="https://example.com/bee-gees-discography.html"><!-- I used a placeholder permalink since we don't have a real hosted URL in this assignment or do we? did i miss it? -->
+
+<!-- LINKS -->
+	
+	<link rel="stylesheet" href="styles.css"><!-- I linked a stylesheet file evem though I dont have one-->
+
+	<!-- Firefox, Chrome, Safari, IE 11+, Edge, and Opera. 196x196 pixels in size. --> 
+	<link rel="icon" type="image/png" sizes="196x196" href="favicon-196.png"><!-- I added a favicon link (this is a placeholder filename for the assignment cuz idk im tired come back to this) -->
+
+	<!--tells the search engine this is the permalink -->
+	<link rel="canonical" href="https://example.com/bee-gees-discography.html"><!-- I added a canonical link so search engines know the main URL for this page -->
+
+	<!--Tells the browser to display this rather than the current page URL -->
+	<link rel="shortlink" href="https://example.com/?p=1"><!-- I added a shortlink placeholder to match the rubric requirement -->
+
+	<!-- Tells the browser and search engine there are multiple languages of this page available-->
+	<link rel="alternate" href="https://example.com/bee-gees-discography.html" hreflang="en"><!-- I added an alternate language link (English) to show language availability -->
+
+	<!-- Gives credit to the author -->
+	<link rel="author" href="https://example.com/about.html"><!-- I added an author link placeholder to credit the page author -->
+
+	<!-- license or authorizations for the page-->
+	<link rel="license" href="https://creativecommons.org/licenses/by/4.0/"><!-- I added a common license link -->
+<!-- TITLE -->	
+	<!--title of the page content displayed on search engines-->
+	<title>Bee Gees Discography | Albums 1966-2017</title><!-- I added a descriptive title that would look good in search results -->
+
+</head>
+
+<body>
+	<!-- Skip To Content Link (https://css-tricks.com/how-to-create-a-skip-to-content-link/)(example at https://www.starbucks.com/) -->
+	<a href="#main" class="skip-link">Skip to main content</a><!-- I added a skip link so keyboard users can jump straight to the main content -->
+
+	<!-- Add headings to give structure, context, relevance to the content-->
+	<!-- Add detailed alt attributes to the last 5 images, the other 29 are done for you as an example-->
+	<header>
+		<h1>DISCOgraphy</h1><!-- I turned the page title into an H1 because every page should have one main heading -->
+		<p>The Bee Gees were a music group formed in 1958, featuring brothers Barry, Robin, and Maurice Gibb. The trio were especially successful as a popular music act in the late 1960s and early 1970s, and later as prominent performers of the disco music era in the mid- to late 1970s.</p>
+		<nav aria-label="Main Navigation"><!-- I added an aria-label so screen readers can identify this nav clearly -->
+			<!-- I kept the original visible text idea but made it a real heading for structure -->
+			<h2>Main Navigation</h2><!-- I added an H2 here so the nav has an accessible, structured label -->
+			<ul>
+				<li><a href="#">Discography</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Videos</a></li>
+				<li><a href="#">Playlists</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="main">
+		<!-- I added a section heading so the album list has context and a clear structure -->
+		<h2>Albums</h2><!-- I made this an H2 since it’s the next level under the page title -->
+
+		<section>
+			<h3>Spicks and Specks</h3><!-- I turned the album title into an H3 so each album is clearly labeled -->
+			<!-- all image links in this document are set as absolute links only so that i didn't need to download them all as part of the activity. DO NOT CODE YOUR IMAGES ON ASSIGNMENTS AS ABSOLUTE LINKS! *****-->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/SPICKS-AND-SPECKS.jpeg" alt="Spicks and specks, the Bee Gees, abstract pop art in black, white, yellow, red and pink">
+			<dl>
+				<dt>Year</dt>
+				<dd>1966</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>BeeGees 1st</h3><!-- I turned the album title into an H3 for consistent structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/BEE-GEES-1ST.jpeg" alt="Bee Gees 1st, Barry, Robin, and Maurice Gibb walking through a psychedelic garden forest">
+			<dl>
+				<dt>Year</dt>
+				<dd>1967</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Horizontal</h3><!-- I turned the album title into an H3 for accessibility -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/HORIZONTAL.jpeg" alt="Bee Gees horizontal, Barry, Robin, and Maurice Gibb reflected in a hallway mirror in sepia tone">
+			<dl>
+				<dt>Year</dt>
+				<dd>1968</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Idea</h3><!-- I turned the album title into an H3 for clear structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/IDEA.jpeg" alt="Bee Gees idea BeeGees, illustration of maurice gibb with half face in line art and the other half with a monocle, purple tint">
+			<dl>
+				<dt>Year</dt>
+				<dd>1968</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Odessa</h3><!-- I turned the album title into an H3 for consistent headings -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/ODESSA.jpeg" alt="Bee Gees odessa written in yellow on a red background">
+			<dl>
+				<dt>Year</dt>
+				<dd>1969</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Best of Bee Gees</h3><!-- I turned the album title into an H3 for accessibility -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/BEST-OF-BEE-GEES.jpeg" alt="best of Bee Gees, Holiday, I've Gotta Get a Message to You, I Can't See Nobody, Words, I Started a Joke, Spicks and Specks, First of May, World, Massachusetts, To Love Somebody, Every Christian Lion Hearted Man Will Show You, New York Mining Disaster 1941, Barry, Robin, and Maurice Gibb sketched in black on yellow background">
+			<dl>
+				<dt>Year</dt>
+				<dd>1969</dd>
+				<dt>Album Type</dt>
+				<dd>Compilation</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Cucumber Castle</h3><!-- I turned the album title into an H3 for clear hierarchy -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/CUCUMBER-CASTLE.jpeg" alt="Bee Gees, cucumber castle, barry and robin gibb wearing suits of armor">
+			<dl>
+				<dt>Year</dt>
+				<dd>1970</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>2 Years On</h3><!-- I turned the album title into an H3 so it’s a real heading -->
+			<img src="images/2_YEARS_ON.jpeg" alt="Bee Gees 2 years on in blue on white background, old time-y photo pd the gibb brothers">
+			<dl>
+				<dt>Year</dt>
+				<dd>1970</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Trafalgar</h3><!-- I turned the album title into an H3 for consistent structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/TRAFALGAR.jpeg" alt="Bee Gee, trafalgar, illustration, rolled parchment paper banner, 18th century ships in the sea">
+			<dl>
+				<dt>Year</dt>
+				<dd>1971</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>To Whom It May Concern</h3><!-- I turned the album title into an H3 for accessibility -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/TO-WHOM-IT-MAY-CONCERN.jpeg" alt="Bee Gees, to whom it may concern, the brothers gibb on stage">
+			<dl>
+				<dt>Year</dt>
+				<dd>1972</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Life In A Tin Can</h3><!-- I turned the album title into an H3 for clear hierarchy -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/LIFE-IN-A-TIN-CAN.jpeg" alt="the Bee Gees, life in a tine can, photo perspective is from above a soda pop can and the brothers gibb can been seen through the pop top in the can">
+			<dl>
+				<dt>Year</dt>
+				<dd>1973</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Best of Bee Gees Volume 2</h3><!-- I turned the album title into an H3 for structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/BEST-OF-BEE-GEES-VOLUME.jpeg" alt="best of Bee Gees volume 2, the brothers gibb sitting on a black, white , and red abstract blanket in a tropical setting">
+			<dl>
+				<dt>Year</dt>
+				<dd>1973</dd>
+				<dt>Album Type</dt>
+				<dd>Compilation</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Mr Natural</h3><!-- I turned the album title into an H3 for accessibility -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/MR-NATURAL.jpeg" alt="Bee Gees, mr natural, ll in neon sign, darkly lit bar with an old smiling person in focus">
+			<dl>
+				<dt>Year</dt>
+				<dd>1974</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Main Course</h3><!-- I turned the album title into an H3 so it reads like a real heading -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/MAIN-COURSE.jpeg" alt="main course, Bee Gees, art deco illustration with green background adn a naked lady in a yellow hat">
+			<dl>
+				<dt>Year</dt>
+				<dd>1975</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Children of the World</h3><!-- I turned the album title into an H3 for consistent structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/CHILDREN_OF_THE_WORLD.jpeg" alt="Bee Gees, children of the work, painting the the gibb brother wearing aviation flight jacket and white scarves">
+			<dl>
+				<dt>Year</dt>
+				<dd>1976</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Here At Last</h3><!-- I turned the album title into an H3 for accessibility -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/HERE-AT-LAST.jpeg" alt="here at last, Bee Gees, ...live, the brothers gibb sharing a microphone on stage">
+			<dl>
+				<dt>Year</dt>
+				<dd>1977</dd>
+				<dt>Album Type</dt>
+				<dd>Live</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Saturday Night Fever</h3><!-- I turned the album title into an H3 so each section has a real label -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/SATURDAY-NIGHT-FEVER.jpeg" alt="the original movie sound track, saturday night fever, iconic john travolta disco pose wearing a white suit with a black shirt, standing on a multicolor lit dance floor, photo of the gibb brothers wearing white suits in the background">
+			<dl>
+				<dt>Year</dt>
+				<dd>1977</dd>
+				<dt>Album Type</dt>
+				<dd>Soundtrack</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Spirits Having Flown</h3><!-- I turned the album title into an H3 for structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/SPIRITS_HAVING_FLOWN.jpeg" alt="Bee Gees spirits having fun, brothers gibb with hair flowing and a red gradient bubble">
+			<dl>
+				<dt>Year</dt>
+				<dd>1979</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Bee Gees Greatest</h3><!-- I turned the album title into an H3 for accessibility -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/BEE-GEES-GREATEST.jpeg" alt="Bee Gees greatest, purple bubble and golden dove">
+			<dl>
+				<dt>Year</dt>
+				<dd>1979</dd>
+				<dt>Album Type</dt>
+				<dd>Compilation</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Living Eyes</h3><!-- I turned the album title into an H3 for structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/LIVING-EYES.jpeg" alt="living eyes, Bee Gees, the gibb brothers wearing formal clothes on a roof top with the new york skyline during sunset in the background">
+			<dl>
+				<dt>Year</dt>
+				<dd>1981</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Staying Alive</h3><!-- I turned the album title into an H3 for consistent headings -->
+			<img src="images/STAYING-ALIVE.jpeg" alt="the original motion picture soundtrack, staying alive, john travolta in stage lights, topless, sweaty, with a sweat headband">
+			<dl>
+				<dt>Year</dt>
+				<dd>1983</dd>
+				<dt>Album Type</dt>
+				<dd>Soundtrack</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>E.S.P</h3><!-- I turned the album title into an H3 for clear hierarchy -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/ESP.jpeg" alt="E.S.P, Bee Gees, brothers gibb standing in a field at dusk">
+			<dl>
+				<dt>Year</dt>
+				<dd>1987</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>One</h3><!-- I turned the album title into an H3 for accessibility -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/ONE.jpeg" alt="Bee Gees, one, brothers gibb faces in black and white">
+			<dl>
+				<dt>Year</dt>
+				<dd>1989</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Tales From The Brothers Gibb</h3><!-- I turned the album title into an H3 for structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/TALES-FROM-THE-BROTHERS-GIBB.jpeg" alt="Bee Gees, tales from teh brother gibb, a history in song, 1967-1990, parchment paper background, red stamped square, leaf stamp">
+			<dl>
+				<dt>Year</dt>
+				<dd>1990</dd>
+				<dt>Album Type</dt>
+				<dd>Compilation</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>High Civilization</h3><!-- I turned the album title into an H3 for consistent headings -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/HIGH-CIVILIZATION.jpeg" alt="Bee Gees high civilization, photo composite with the brother gibb wearing all black, illustration of london in the background and technology item flying around in the sky, floppy disc, cube, power cord, eagle, keyboard, jet">
+			<dl>
+				<dt>Year</dt>
+				<dd>1991</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Size Isnâ€™t Everything</h3><!-- I turned the album title into an H3 for structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/SIZE_ISNT_EVERYTHING.jpeg" alt="Bee Gees, size isn't everything, fun house mirror effect making the brothers gibb appear taller, miami style hotel and palm tree in teh background">
+			<dl>
+				<dt>Year</dt>
+				<dd>1993</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Still Waters</h3><!-- I turned the album title into an H3 for consistent hierarchy -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/STILL-WATERS.jpeg" alt="still waters, Bee Gees, sepia tone photo with the brothers gibb looking introspective">
+			<dl>
+				<dt>Year</dt>
+				<dd>1997</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>One Night Only</h3><!-- I turned the album title into an H3 for accessibility -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/ONE-NIGHT-ONLY.jpeg" alt="Bee Gees, one night only, black background with the brother gibb wearing all black, outer glow around them">
+			<dl>
+				<dt>Year</dt>
+				<dd>1998</dd>
+				<dt>Album Type</dt>
+				<dd>Live</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>This Is Where I Came In</h3><!-- I turned the album title into an H3 for clear structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/THIS-IS-WHERE-I-CAME-FROM.jpeg" alt="Bee Gees, this is where i came in, green floor an wall with a black and white, old photo of the brother gibb in the background, with the brothers standing in front of it, maurice and robin in blurred motion while walking and barry standing with hands in his pockets">
+			<dl>
+				<dt>Year</dt>
+				<dd>2001</dd>
+				<dt>Album Type</dt>
+				<dd>Studio</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Their Greatest Hits The Record</h3><!-- I turned the album title into an H3 so it’s a real heading -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/THEIR-GREATEST-HITS.jpg" alt="Their Greatest Hits: The Record album cover with Bee Gees branding and a bold, high-contrast graphic style emphasizing the greatest hits collection."><!-- I added detailed alt text here because this was one of the last 5 images missing it -->
+			<dl>
+				<dt>Year</dt>
+				<dd>2001</dd>
+				<dt>Album Type</dt>
+				<dd>Compilation</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Number Ones</h3><!-- I turned the album title into an H3 for consistent structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/NUMBER-ONES.jpeg" alt="Number Ones compilation album cover featuring the Bee Gees name prominently with a clean, modern layout designed to highlight their chart-topping singles."><!-- I added detailed alt text here because this image originally had an empty alt -->
+			<dl>
+				<dt>Year</dt>
+				<dd>2004</dd>
+				<dt>Album Type</dt>
+				<dd>Compilation</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Love Songs</h3><!-- I turned the album title into an H3 for accessibility -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/LOVE-SONGS.jpeg" alt="Love Songs compilation album cover with romantic-themed design elements and the Bee Gees name displayed as the main focus to match the collection theme."><!-- I added detailed alt text here because this image originally had an empty alt -->
+			<dl>
+				<dt>Year</dt>
+				<dd>2005</dd>
+				<dt>Album Type</dt>
+				<dd>Compilation</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>The Ultimate Bee Gees</h3><!-- I turned the album title into an H3 for consistent heading hierarchy -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/THE-ULTIMATE-BEE-GEES.jpeg" alt="The Ultimate Bee Gees compilation cover featuring a bold title treatment and a polished, curated look that signals a definitive greatest-hits style collection."><!-- I added detailed alt text here because this image originally had an empty alt -->
+			<dl>
+				<dt>Year</dt>
+				<dd>2009</dd>
+				<dt>Album Type</dt>
+				<dd>Compilation</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h3>Timeless - The All-Time Greatest Hits</h3><!-- I turned the album title into an H3 for structure -->
+			<img src="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/TIMELESS.jpeg" alt="Timeless: The All-Time Greatest Hits album cover with a sleek, celebratory design featuring the Bee Gees name and a classic greatest-hits presentation style."><!-- I added detailed alt text here because this was the last image missing alt text -->
+			<dl>
+				<dt>Year</dt>
+				<dd>2017</dd>
+				<dt>Album Type</dt>
+				<dd>Compilation</dd>
+			</dl>
+		</section>
+	</main>
+
+	<aside>
+		<h2>Recommendations</h2><!-- I made this a real heading so the aside section has structure -->
+		<p>If you like the Bee Gees, you might also like these bands.</p>
+		<ul>
+			<li><a href="#">KC and the Sunshine Band</a></li>
+			<li><a href="#">Sister Sledge</a></li>
+			<li><a href="#">Kool and the Gang</a></li>
+			<li><a href="#">The Tramps</a></li>
+			<li><a href="#">ABBA</a></li>
+		</ul>
+	</aside>
+
+	<footer>
+		<small>Copyright 2021</small>
+	</footer>
+</body>
+</html>
+
+
